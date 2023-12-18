@@ -24,7 +24,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "dotenv-webpack": "^8.0.1",
-    "esy-core": "git+ssh://git@github.com:sebhubdev/esy-core.git",
     "express": "^4.18.2",
     "file-loader": "^6.2.0",
     "html-react-parser": "^3.0.4",
