@@ -1,0 +1,40 @@
+@import "assets/scss/commons/reset";
+@import "assets/scss/commons/variables";
+@import "assets/scss/commons/helpers";
+@import "assets/scss/commons/richtext";
+@import "components/components";
+@import "modules/modules";
+@import "layout/layout";
+@import "pages/pages";
+
+html {
+  font-family: default(font-family);
+  font-size: 62.5%;
+  overflow-x: hidden;
+  text-size-adjust: 100%;
+  color: color(text, medium);
+  position: relative;
+  overflow: hidden !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-content {
+  margin: auto;
+  max-width: 1200px;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+
+.lg-thumb-item {
+  border: none !important;
+}

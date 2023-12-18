@@ -1,0 +1,22 @@
+@import "Cards/Cards";
+@import "Separator/Separator";
+@import "Image/Image";
+@import "TextAndImage/TextAndImage";
+@import "PageTitle/PageTitle";
+
+.slice {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 2rem;
+  width: 100%;
+
+  @media (min-width: $sm-width) {
+    margin-top: 5rem;
+  }
+
+  &-full {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}

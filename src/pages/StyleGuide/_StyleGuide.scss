@@ -1,0 +1,25 @@
+.style-guide {
+  border: 1px solid red;
+
+  &__title,
+  &__item__title {
+    font-family: default(font-family);
+    text-align: left;
+    color: color(mono, dark) !important;
+
+    padding-left: 0;
+    padding-bottom: 0;
+    &:after,
+    &:before {
+      content: none;
+    }
+  }
+
+  &__item__content {
+    border-bottom: 1px solid color(mono, dark);
+
+    .btn {
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+input,
+textarea {
+  border: 1px solid color(secondary, light);
+  border-radius: default(radius);
+  font-size: 1.4rem;
+  display: block;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  font-family: default(font-family);
+  outline: none;
+
+  &:focus {
+    outline: px solid color(secondary);
+  }
+}
+
+textarea {
+  height: 14rem;
+  margin-bottom: 1rem;
+}
+
+.input-wrapper {
+  margin-bottom: 1rem;
+}

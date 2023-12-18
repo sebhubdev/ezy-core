@@ -1,0 +1,19 @@
+.loading {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: color(mono, darksofthover);
+
+  &__msg {
+    color: color(primary);
+    margin-top: 1rem;
+  }
+}

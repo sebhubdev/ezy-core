@@ -1,0 +1,115 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+
+  &-primary {
+    font-family: default(font-family, secondary);
+    background-color: color(secondary);
+    border: 2px solid color(secondary);
+    border-radius: 1rem;
+    color: color(mono, light);
+    font-size: 2.4rem;
+    padding: 0.5rem 3rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: $xxl-width) {
+      font-size: 2.4rem;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: color(mono, light);
+      color: color(secondary);
+
+      a {
+        color: color(secondary);
+      }
+    }
+  }
+
+  &-secondary {
+    border: 1px solid color(primary);
+    color: color(primary);
+    font-family: default(font-family);
+    font-size: 2rem;
+    outline: none;
+    padding: 01rem 3rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+    &:hover {
+      background-color: color(primary);
+      color: color(mono, light);
+    }
+
+    &-light {
+      border: 1px solid color(mono, light) !important;
+      color: color(mono, light);
+      text-transform: none;
+      font-family: default(font-family, secondary);
+      font-weight: 700;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: color(mono, light);
+        color: color(tertiary);
+      }
+    }
+  }
+
+  &-link {
+    color: color(primary);
+    position: relative;
+
+    &::before {
+      content: " ";
+      width: 0rem;
+      height: 0.3rem;
+      background-color: color(secondary);
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -0.5rem;
+      transition: all 0.3s ease;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      color: color(secondary);
+
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+
+  &-arrow {
+    background-color: color(secondary);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: color(primary);
+    }
+
+    .icon {
+      fill: color(mono, light);
+    }
+  }
+}

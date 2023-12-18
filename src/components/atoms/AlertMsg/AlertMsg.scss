@@ -1,0 +1,18 @@
+.alert-message {
+  margin-bottom: 2rem;
+
+  &__content {
+    padding: 1rem;
+    text-align: center;
+    border-radius: default(radius);
+    &.success {
+      color: color(alert, success);
+      border: 2px solid color(alert, success);
+    }
+
+    &.danger {
+      color: color(alert, danger);
+      border: 2px solid color(alert, danger);
+    }
+  }
+}

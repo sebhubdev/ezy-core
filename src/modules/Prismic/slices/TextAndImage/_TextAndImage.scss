@@ -1,0 +1,49 @@
+.text-image-slice {
+  &__inner {
+    @media (min-width: $sm-width) {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  }
+
+  &__content {
+    strong {
+      font-weight: 300;
+    }
+
+    @media (min-width: $sm-width) {
+      margin-top: 0;
+    }
+
+    .btn {
+      @media (min-width: $sm-width) {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__image {
+    margin-bottom: 2rem;
+    @media (min-width: $sm-width) {
+      float: right;
+      width: 48%;
+      margin: 0 0 2rem 4rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &.left {
+    .text-image-slice {
+      &__image {
+        float: left;
+        @media (min-width: $sm-width) {
+          margin: 0 4rem 2rem 0;
+        }
+      }
+    }
+  }
+}

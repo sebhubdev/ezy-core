@@ -1,0 +1,15 @@
+.labeled-image-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4rem;
+
+  @media (min-width: $xs-width) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  @media (min-width: $sm-width) {
+    grid-gap: 2rem;
+  }
+}

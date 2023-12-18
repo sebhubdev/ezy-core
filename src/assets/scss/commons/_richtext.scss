@@ -1,0 +1,32 @@
+.rich-text {
+  text-align: justify;
+
+  @media (min-width: $sm-width) {
+    text-align: left;
+  }
+  p {
+    padding-bottom: 2rem;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  h1 {
+    padding-bottom: 2rem;
+  }
+
+  h2 {
+    padding-bottom: 2rem;
+  }
+
+  h4 {
+    line-height: 3rem;
+  }
+}
+
+.richtext {
+  h3 {
+    @extend .green;
+  }
+}

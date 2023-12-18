@@ -1,0 +1,163 @@
+@import "fonts/fonts";
+@import "Heading/Heading";
+
+.font-primary {
+  font-family: default(font-family);
+  font-weight: default(weight, medium);
+}
+
+.font-primary-light {
+  font-family: default(font-family, light);
+  font-weight: 100;
+}
+
+.font-secondary {
+  font-family: default(font-family, secondary);
+}
+
+.font-tertiary {
+  font-family: default(font-family, tertiary);
+}
+
+p,
+span {
+  font-family: default(font-family);
+
+  color: #000;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.2rem;
+}
+
+.cite {
+  font-size: 3rem;
+  font-style: italic;
+  line-height: 3.4rem;
+}
+
+.text {
+  font-family: default(font-family);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  &-big {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+
+  &-small {
+    font-size: 1rem;
+  }
+
+  &-center {
+    text-align: center !important;
+  }
+
+  &-left {
+    text-align: left !important;
+  }
+
+  &-right {
+    text-align: right !important;
+  }
+}
+
+.upc {
+  text-transform: uppercase;
+}
+
+.lwc {
+  text-transform: lowercase;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.strong-medium {
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: color(primary);
+  }
+}
+
+.fancy-title {
+  color: color(primary);
+  font-family: default(font-family, fancy);
+  font-size: 5rem;
+  line-height: normal;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+
+  @media (min-width: $sm-width) {
+    font-size: 6.5rem;
+  }
+
+  @media (min-width: $md-width) {
+    font-size: 8rem;
+  }
+}
+
+.font-primary {
+  font-family: default(font-family);
+}
+
+.font-primary-medium {
+  font-family: default(font-family);
+}
+
+.font-secondary {
+  font-family: default(font-family, secondary);
+}
+
+.font-secondary-light {
+  font-family: default(font-family, light);
+}
+
+.style-title {
+  font-family: inherit;
+  font-weight: default(weight, medium);
+}
+
+strong,
+b {
+  font-weight: default(weight, medium);
+}
+
+.barre {
+  text-decoration: line-through;
+}
+
+.body-regular {
+  font-size: 1.6rem;
+}
+
+.body-large {
+  font-size: 1.8rem;
+}
+
+.body-small {
+  font-size: 1.4rem;
+}
+
+.green {
+  color: color(primary);
+}
+.orange {
+  color: color(secondary);
+}

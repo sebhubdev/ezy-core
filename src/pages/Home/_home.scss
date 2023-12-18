@@ -1,0 +1,100 @@
+.construction-page {
+  background: #0b7c80;
+  font-family: "Courier New", Courier, monospace;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.page-title {
+  &__logo {
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+    border-radius: 10rem;
+    background: linear-gradient(
+      180deg,
+      #d9d9d9 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+    @media (min-width: $sm-width) {
+      width: 10rem;
+      height: 10rem;
+    }
+  }
+  &__title {
+    font-family: default(font-family, secondary);
+    text-align: center;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(
+      184deg,
+      #fff 3.41%,
+      rgba(255, 255, 255, 0) 125.01%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media (min-width: $sm-width) {
+      font-size: 8rem;
+    }
+  }
+
+  &__subtitle {
+    color: rgba(255, 255, 255, 0.28);
+    text-align: center;
+    font-family: default(font-family);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    @media (min-width: $sm-width) {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.home {
+  margin-top: 4rem;
+
+  &__header {
+    &__title {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__categories {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+
+    @media (min-width: $sm-width) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $md-width) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__latest-articles {
+    margin-top: 4rem;
+  }
+}

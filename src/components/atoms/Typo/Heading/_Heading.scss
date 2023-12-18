@@ -1,0 +1,94 @@
+.h1,
+h1 {
+  font-family: default(font-family, tertiary);
+  font-size: 3.2rem;
+  position: relative;
+  font-weight: 700;
+
+  @media (min-width: $sm-width) {
+    font-size: 3.6rem;
+  }
+
+  @media (min-width: $md-width) {
+    font-size: 4.4rem;
+  }
+
+  &.underlined {
+    padding-left: 3.2rem;
+    padding-bottom: 2rem;
+    &:after {
+      content: "";
+      background-color: color(primary);
+      width: 2rem;
+      height: 2rem;
+      border-radius: 2rem;
+      position: absolute;
+      top: 1.4rem;
+      left: 0rem;
+      display: block;
+    }
+
+    &:before {
+      content: "";
+      background-color: color(secondary);
+      width: 36rem;
+      height: 0.5rem;
+      border-radius: 1rem;
+      position: absolute;
+      bottom: 1.4rem;
+      left: 0rem;
+      display: block;
+    }
+  }
+}
+
+.h2,
+h2 {
+  font-family: default(font-family, tertiary);
+  font-size: 2.2rem;
+  font-weight: 700;
+
+  @media (min-width: $sm-width) {
+    font-size: 2.2rem;
+  }
+
+  @media (min-width: $md-width) {
+    font-size: 2.4rem;
+  }
+}
+
+.h3,
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: default(font-family, tertiary);
+  line-height: 4rem;
+  @media (min-width: $md-width) {
+    font-size: 2rem;
+  }
+}
+
+.h4,
+h4 {
+  font-family: default(font-family, secondary);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.h5,
+h5 {
+  font-family: default(font-family);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+  padding-bottom: 2rem;
+}
+
+.h6,
+h6 {
+  font-family: default(font-family);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+  padding-bottom: 2rem;
+}

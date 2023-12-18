@@ -1,0 +1,44 @@
+.main-footer {
+  background: color(primary);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 2rem 0;
+
+  .full-logo__inner {
+    justify-content: center;
+  }
+
+  p {
+    color: color(mono, transLight);
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+
+  .navigator {
+    margin-top: 2rem;
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .nav-item {
+        &__link {
+          text-decoration: none;
+          transition: opacity 0.3s ease;
+
+          &:hover {
+            opacity: 0.5;
+          }
+          &__label {
+            color: color(mono, transLight);
+            font-weight: 900;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

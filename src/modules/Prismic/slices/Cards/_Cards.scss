@@ -1,0 +1,25 @@
+.cards-slice {
+  &__items {
+    @media (min-width: $sm-width) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+  }
+}
+
+.slice-card {
+  border: 1px solid color(primary);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  a {
+    text-decoration: none;
+  }
+
+  &__content {
+    padding: 1rem;
+  }
+  &__link {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fr": {
+    "lang": "French",
+    "code": "fr-fr",
+    "icon": "franceFlag",
+    "path": "fr",
+    "default": true
+  }
+}

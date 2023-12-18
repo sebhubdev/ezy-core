@@ -1,0 +1,30 @@
+.richtext-slice {
+  .rich-text {
+    h2 {
+      @extend .h2;
+      @extend .orange;
+      margin-bottom: 2rem;
+      margin-top: 3rem;
+    }
+    h3 {
+      @extend .h3;
+      @extend .green;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: disc;
+      list-style-position: inside;
+      padding-left: 2rem;
+      margin-bottom: 3rem;
+      li {
+        font-weight: 300;
+        margin-bottom: 1rem;
+      }
+    }
+
+    strong {
+      font-weight: inherit;
+    }
+  }
+}
