@@ -29,7 +29,6 @@
     "html-react-parser": "^3.0.4",
     "isomorphic-fetch": "^3.0.0",
     "jquery": "^3.6.1",
-    "lightgallery": "^2.7.0",
     "node-fetch": "^2.6.6",
     "node-sass": "^7.0.3",
     "nodemailer": "^6.9.7",
