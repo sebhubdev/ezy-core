@@ -52,21 +52,7 @@
     "react-router-hash-link": "^2.4.3",
     "serialize-javascript": "^6.0.0",
     "svg-inline-loader": "^0.8.2",
-    "swiper": "^8.4.4"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
+    "swiper": "^8.4.4",
     "@loadable/babel-plugin": "^5.13.2",
     "@loadable/webpack-plugin": "^5.15.2",
     "babel-core": "^6.26.3",
@@ -86,5 +72,18 @@
     "webpack-cli": "^4.10.0",
     "webpack-hot-middleware": "^2.25.2",
     "webpack-node-externals": "^3.0.0"
-  }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
 }
