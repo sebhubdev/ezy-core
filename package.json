@@ -81,6 +81,6 @@
     "webpack-node-externals": "^3.0.0"
   },
   "bin": {
-    "esy-core": "./bin/ezy-core"
+    "ezy-core": "./bin/ezy-core"
   }
 }
