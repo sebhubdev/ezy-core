@@ -1,0 +1,745 @@
+{
+  "hash": "c0ffb9676d6bedaec236",
+  "publicPath": "build/statics/",
+  "outputPath": "/home/sebastian/Projects/Personals/ezy/ezy-core/build/statics",
+  "assetsByChunkName": {
+    "main": [
+      "main.css",
+      "0.chunk.js"
+    ],
+    "pages-Home": [
+      "1ac45fc281188a92a3ca.chunk.js"
+    ],
+    "pages-Services": [
+      "0fa889cdc00c4db6fbbe.chunk.js"
+    ],
+    "pages-Service": [
+      "eb09db128f4796ba8264.chunk.js"
+    ],
+    "pages-About": [
+      "3f0c4d73724551ceb4a3.chunk.js"
+    ],
+    "pages-Contact": [
+      "49ddef015ecf0e47915f.chunk.js"
+    ],
+    "pages-Legal": [
+      "e1850c6ba88c594443fc.chunk.js"
+    ],
+    "pages-Error404": [
+      "29dac945d22ff11d740c.chunk.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "0.chunk.js",
+      "size": 1989806,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "0.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "be793100b2ab027d9b74.ttf",
+      "size": 130976,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/OpenSans/OpenSans-Medium.ttf",
+        "immutable": true,
+        "contenthash": "be793100b2ab027d9b74"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "c790f99966352c531503.ttf",
+      "size": 130860,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/OpenSans/OpenSans-Bold.ttf",
+        "immutable": true,
+        "contenthash": "c790f99966352c531503"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "b8cc747a58ffa52b7ff9.ttf",
+      "size": 130832,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/OpenSans/OpenSans-Regular.ttf",
+        "immutable": true,
+        "contenthash": "b8cc747a58ffa52b7ff9"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "c7ab78a511011d4e147e.ttf",
+      "size": 130760,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/OpenSans/OpenSans-SemiBold.ttf",
+        "immutable": true,
+        "contenthash": "c7ab78a511011d4e147e"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "img/logo.png",
+      "size": 79620,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/assets/img/logo.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "main.css",
+      "size": 56437,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "related": {
+          "sourceMap": "main.css.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "49ddef015ecf0e47915f.chunk.js",
+      "size": 40468,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "49ddef015ecf0e47915f",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "49ddef015ecf0e47915f.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-Contact"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-Contact"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "0fa889cdc00c4db6fbbe.chunk.js",
+      "size": 28508,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "0fa889cdc00c4db6fbbe",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "0fa889cdc00c4db6fbbe.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-Services"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-Services"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "eb09db128f4796ba8264.chunk.js",
+      "size": 28488,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "eb09db128f4796ba8264",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "eb09db128f4796ba8264.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-Service"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-Service"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "3f0c4d73724551ceb4a3.chunk.js",
+      "size": 28448,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "3f0c4d73724551ceb4a3",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "3f0c4d73724551ceb4a3.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-About"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-About"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "e1850c6ba88c594443fc.chunk.js",
+      "size": 28448,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "e1850c6ba88c594443fc",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "e1850c6ba88c594443fc.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-Legal"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-Legal"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "1ac45fc281188a92a3ca.chunk.js",
+      "size": 28428,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "1ac45fc281188a92a3ca",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "1ac45fc281188a92a3ca.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-Home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-Home"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "5fbeb21cdb1c89504bdb.svg?a1f7ly",
+      "size": 24565,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/icomoon.svg?a1f7ly",
+        "immutable": true,
+        "contenthash": "5fbeb21cdb1c89504bdb"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "fdd0ef7a3658a2d7752a.chunk.js",
+      "size": 23003,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "fdd0ef7a3658a2d7752a",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "fdd0ef7a3658a2d7752a.chunk.js.map"
+        }
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "f5ffc4e40c49cc6d3b11.eot?a1f7ly",
+      "size": 7812,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/icomoon.eot?a1f7ly",
+        "immutable": true,
+        "contenthash": "f5ffc4e40c49cc6d3b11"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "8f8cccd469140ddf6651.woff?a1f7ly",
+      "size": 7724,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/icomoon.woff?a1f7ly",
+        "immutable": true,
+        "contenthash": "8f8cccd469140ddf6651"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "30594594b06fd058f967.ttf?a1f7ly",
+      "size": 7648,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "src/components/atoms/Typo/fonts/icomoon.ttf?a1f7ly",
+        "immutable": true,
+        "contenthash": "30594594b06fd058f967"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "29dac945d22ff11d740c.chunk.js",
+      "size": 3990,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "chunkhash": "29dac945d22ff11d740c",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "29dac945d22ff11d740c.chunk.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-Error404"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "pages-Error404"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "img/favicon.png",
+      "size": 3094,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/assets/publicImages/favicon.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.css"
+        },
+        {
+          "name": "0.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 11,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Home": {
+      "name": "pages-Home",
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+        "pages-Home"
+      ],
+      "assets": [
+        {
+          "name": "fdd0ef7a3658a2d7752a.chunk.js"
+        },
+        {
+          "name": "1ac45fc281188a92a3ca.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Services": {
+      "name": "pages-Services",
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+        "pages-Services"
+      ],
+      "assets": [
+        {
+          "name": "fdd0ef7a3658a2d7752a.chunk.js"
+        },
+        {
+          "name": "0fa889cdc00c4db6fbbe.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Service": {
+      "name": "pages-Service",
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+        "pages-Service"
+      ],
+      "assets": [
+        {
+          "name": "fdd0ef7a3658a2d7752a.chunk.js"
+        },
+        {
+          "name": "eb09db128f4796ba8264.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-About": {
+      "name": "pages-About",
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+        "pages-About"
+      ],
+      "assets": [
+        {
+          "name": "fdd0ef7a3658a2d7752a.chunk.js"
+        },
+        {
+          "name": "3f0c4d73724551ceb4a3.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Contact": {
+      "name": "pages-Contact",
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+        "pages-Contact"
+      ],
+      "assets": [
+        {
+          "name": "fdd0ef7a3658a2d7752a.chunk.js"
+        },
+        {
+          "name": "49ddef015ecf0e47915f.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Legal": {
+      "name": "pages-Legal",
+      "chunks": [
+        "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+        "pages-Legal"
+      ],
+      "assets": [
+        {
+          "name": "fdd0ef7a3658a2d7752a.chunk.js"
+        },
+        {
+          "name": "e1850c6ba88c594443fc.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Error404": {
+      "name": "pages-Error404",
+      "chunks": [
+        "pages-Error404"
+      ],
+      "assets": [
+        {
+          "name": "29dac945d22ff11d740c.chunk.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "main",
+      "files": [
+        "main.css",
+        "0.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-Home",
+      "files": [
+        "1ac45fc281188a92a3ca.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-Services",
+      "files": [
+        "0fa889cdc00c4db6fbbe.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-Service",
+      "files": [
+        "eb09db128f4796ba8264.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-About",
+      "files": [
+        "3f0c4d73724551ceb4a3.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-Contact",
+      "files": [
+        "49ddef015ecf0e47915f.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-Legal",
+      "files": [
+        "e1850c6ba88c594443fc.chunk.js"
+      ]
+    },
+    {
+      "id": "pages-Error404",
+      "files": [
+        "29dac945d22ff11d740c.chunk.js"
+      ]
+    },
+    {
+      "id": "vendors-node_modules_prismicio_helpers_dist_asHTML_js",
+      "files": [
+        "fdd0ef7a3658a2d7752a.chunk.js"
+      ]
+    }
+  ]
+}
