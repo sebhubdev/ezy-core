@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The super site core",
   "main": "index.js",
+  "bin": {
+    "ezy-core": "./bin/ezy-core"
+  },
   "scripts": {
     "start": "node ./src/server/server-hmr.js",
     "build": "webpack --env production",
@@ -79,8 +82,5 @@
     "webpack-cli": "^4.10.0",
     "webpack-hot-middleware": "^2.25.2",
     "webpack-node-externals": "^3.0.0"
-  },
-  "bin": {
-    "ezy-core": "./bin/ezy-core"
   }
 }
