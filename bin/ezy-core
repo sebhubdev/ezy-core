@@ -1,17 +1,5 @@
 #!/usr/bin/env node
 
 require("dotenv").config({ silent: true });
-const webpack = require("webpack");
-const spawn = require("cross-spawn");
-
-const script = process.argv.length > 2 ? process.argv[2] : null;
-
-// spawn("webpack");
-
-// webpack("./webpack.config.js");
-
-// spawn("node", ["../build/server.js"]);
-// require("../build/server.js");
-// require("../scripts/log");
 
 require("../scripts/start");
