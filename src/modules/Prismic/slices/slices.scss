@@ -1,8 +1,8 @@
-@import "Cards/Cards";
-@import "Separator/Separator";
-@import "Image/Image";
-@import "TextAndImage/TextAndImage";
-@import "PageTitle/PageTitle";
+@import "~modules/Prismic/slices/Cards/Cards";
+@import "~modules/Prismic/slices/Separator/Separator";
+@import "~modules/Prismic/slices/Image/Image";
+@import "~modules/Prismic/slices/TextAndImage/TextAndImage";
+@import "~modules/Prismic/slices/PageTitle/PageTitle";
 
 .slice {
   margin: auto;
