@@ -1,11 +1,11 @@
-@import "assets/scss/commons/reset";
-@import "assets/scss/commons/variables";
-@import "assets/scss/commons/helpers";
-@import "assets/scss/commons/richtext";
-@import "components/components";
-@import "modules/modules";
-@import "layout/layout";
-@import "pages/pages";
+@import "~assets/scss/commons/reset";
+@import "~assets/scss/commons/variables";
+@import "~assets/scss/commons/helpers";
+@import "~assets/scss/commons/richtext";
+@import "~components/components";
+@import "~modules/modules";
+@import "~layout/layout";
+@import "~pages/pages";
 
 html {
   font-family: default(font-family);

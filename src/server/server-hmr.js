@@ -8,17 +8,23 @@ require("dotenv").config();
 
 const app = express();
 
+console.log(process.env.LOCAL);
+
 const webpackCompiler = webpack({
   entry: [
     "webpack-hot-middleware/client",
-    path.resolve(`node_modules/ezy-core/src/index.js`),
+    path.resolve(
+      process.env.LOCAL
+        ? "./src/index.js"
+        : "node_modules/ezy-core/src/index.js"
+    ),
   ],
   mode: "development",
   devtool: "source-map",
   module: {
     rules: [
       {
-        // exclude: /node_modules/,
+        exclude: /node_modules/,
         test: /.js$/,
         use: {
           loader: "babel-loader",
@@ -60,7 +66,7 @@ const webpackCompiler = webpack({
   plugins: [
     new HotModuleReplacementPlugin(),
     new Dotenv({
-      path: `./.env`,
+      path: path.resolve(__dirname, `../../../../.env`),
     }),
   ],
   resolve: {
@@ -116,6 +122,7 @@ app.use(webpackDevMiddleware(webpackCompiler));
 app.use(webpackHotMiddleware(webpackCompiler));
 
 app.use("*", express.static(`node_modules/ezy-core/src/server`));
+app.use("*", express.static(`./src/server`));
 
 // const PORT = process.env.PORT ;
 

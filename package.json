@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "The super site core",
   "main": "index.js",
+  "homapage": "/",
   "bin": {
     "ezy-core": "./bin/ezy-core"
   },
   "scripts": {
-    "test": "cross-env NODE_ENV=production node ./bin/ezy-core start",
+    "test": "node ./bin/ezy-core start",
     "start": "node ./src/server/server-hmr.js",
     "build": "webpack --env production",
     "dev": "webpack -w & nodemon ./build/server.js",
