@@ -1,6 +1,6 @@
 import React from "react";
-import slices from "./slices/slices";
-import resolvers from "./slices/resolvers";
+import slices from "modules/Prismic/slices/slices";
+import resolvers from "modules/Prismic/slices/resolvers";
 
 const Error = () => {
   return "component not found";

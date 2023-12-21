@@ -1,9 +1,9 @@
-import RichText from "./RichText";
-import Cards from "./Cards";
-import PageTitle from "./PageTitle/PageTitle";
-import Separator from "./Separator";
-import Image from "./Image";
-import TextAndImage from "./TextAndImage";
+import RichText from "modules/Prismic/slices/RichText";
+import Cards from "modules/Prismic/slices/Cards";
+import PageTitle from "modules/Prismic/slices/PageTitle/PageTitle";
+import Separator from "modules/Prismic/slices/Separator";
+import Image from "modules/Prismic/slices/Image";
+import TextAndImage from "modules/Prismic/slices/TextAndImage";
 
 export default {
   richtext: {
