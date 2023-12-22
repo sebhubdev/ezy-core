@@ -2,4 +2,17 @@
 
 require("dotenv").config({ silent: true });
 
-require("../scripts/start");
+const script = process.argv.length > 2 ? process.argv[2] : null;
+const args = process.argv.slice(3);
+
+switch (script) {
+  case "start":
+    require("../scripts/start");
+    break;
+  case "build":
+    require("../scripts/build");
+    break;
+
+  default:
+    console.log("the script doesn't exists");
+}

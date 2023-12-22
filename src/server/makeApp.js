@@ -26,9 +26,7 @@ const doc = (initialData, appString, helmet, scriptTags) => {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8663558719177965"
           crossorigin="anonymous"
-        ></script>
-
-        
+        ></script>      
   
   
       <!-- Google tag (gtag.js) -->
@@ -51,7 +49,7 @@ const doc = (initialData, appString, helmet, scriptTags) => {
   </html>`;
 };
 
-const statsFile = "./statics/loadable-stats.json";
+const statsFile = "./build/statics/loadable-stats.json";
 const extractor = new ChunkExtractor({ statsFile });
 
 const makeApp = (initialData, location) => {

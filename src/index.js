@@ -16,7 +16,12 @@ if (process.env.SSR_APP === "false") {
     );
   }
 } else {
+
+  console.log('hereee');
   const initialData = window.__INITIAL_DATA__;
+
+
+  console.log(initialData);
 
   delete window.__INITIAL_DATA__;
 

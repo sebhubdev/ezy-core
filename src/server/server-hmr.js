@@ -66,7 +66,9 @@ const webpackCompiler = webpack({
   plugins: [
     new HotModuleReplacementPlugin(),
     new Dotenv({
-      path: path.resolve(__dirname, `../../../../.env`),
+      path: process.env.LOCAL
+        ? "./.env"
+        : path.resolve(__dirname, `../../../../.env`),
     }),
   ],
   resolve: {
@@ -79,6 +81,7 @@ const webpackCompiler = webpack({
         path.resolve(`./src/pages/`),
         path.resolve(__dirname, `../pages/`),
       ],
+      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `../api/`)],
       routes: [
         path.resolve(`./src/routes/`),
         path.resolve(__dirname, `../routes/`),
@@ -104,7 +107,6 @@ const webpackCompiler = webpack({
         path.resolve(__dirname, `../dataServices/`),
       ],
 
-      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `../api/`)],
       hooks: [
         path.resolve(`./src/hooks/`),
         path.resolve(__dirname, `../hooks/`),

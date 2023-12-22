@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "The super site core",
   "main": "index.js",
-  "homapage": "/",
+  "homepage": "/",
   "bin": {
     "ezy-core": "./bin/ezy-core"
   },
   "scripts": {
     "test": "node ./bin/ezy-core start",
-    "start": "node ./src/server/server-hmr.js",
-    "build": "webpack --env production",
+    "start": "node ./bin/ezy-core start",
+    "build": "node ./bin/ezy-core build",
     "dev": "webpack -w & nodemon ./build/server.js",
-    "start-prod": "node ./build/server.js"
+    "prod": "node ./build/server.js"
   },
   "keywords": [],
   "author": "",
