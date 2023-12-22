@@ -2,12 +2,12 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import getFirstData from "server/getFirstData";
-import headers from "./headers";
+import headers from "server/headers";
 import routes from "server/routes";
 import loaders from "server/Prismic/loaders";
 import langs from "server/langs.json";
-import makeApp from "./makeApp";
-import apiroutes from "./api/routes.js";
+import makeApp from "server/makeApp";
+import apiroutes from "server/api/routes.js";
 
 dotenv.config();
 

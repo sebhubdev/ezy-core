@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import App from "./App";
+import App from "web/App";
 import { BrowserRouter } from "react-router-dom";
-import "./main.scss";
+import "web/main.scss";
 import { loadableReady } from "@loadable/component";
 
 if (process.env.SSR_APP === "false") {
@@ -16,10 +16,8 @@ if (process.env.SSR_APP === "false") {
     );
   }
 } else {
-
-  console.log('hereee');
+  console.log("hereee");
   const initialData = window.__INITIAL_DATA__;
-
 
   console.log(initialData);
 

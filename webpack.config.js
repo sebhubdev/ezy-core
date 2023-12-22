@@ -17,7 +17,7 @@ const imagesConf = {
 const clientConf = {
   mode: "production",
   target: "web",
-  entry: path.resolve(__dirname, "./src", "index.js"),
+  entry: path.resolve(__dirname, "./src/web", "index.js"),
   output: {
     filename: "0.chunk.js",
     path: path.resolve(
@@ -82,47 +82,14 @@ const clientConf = {
   ],
   resolve: {
     alias: {
-      components: [
-        path.resolve(`./src/components/`),
-        path.resolve(__dirname, `./src/components/`),
-      ],
-      pages: [
-        path.resolve(`./src/pages/`),
-        path.resolve(__dirname, `./src/pages/`),
-      ],
-      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `./src/api/`)],
-      routes: [
-        path.resolve(`./src/routes/`),
-        path.resolve(__dirname, `./src/routes/`),
-      ],
-      assets: [
-        path.resolve(`./src/assets/`),
-        path.resolve(__dirname, `./src/assets/`),
-      ],
-      modules: [
-        path.resolve(`./src/modules/`),
-        path.resolve(__dirname, `./src/modules/`),
-      ],
-      layout: [
-        path.resolve(`./src/layout/`),
-        path.resolve(__dirname, `./src/layout/`),
-      ],
-      services: [
-        path.resolve(`./src/services/`),
-        path.resolve(__dirname, `./src/services/`),
-      ],
-      dataServices: [
-        path.resolve(`./src/dataServices/`),
-        path.resolve(__dirname, `./src/dataServices/`),
-      ],
-
-      hooks: [
-        path.resolve(`./src/hooks/`),
-        path.resolve(__dirname, `./src/hooks/`),
-      ],
       i18n: [
         path.resolve(`./src/i18n/`),
         path.resolve(__dirname, `./src/i18n/`),
+      ],
+      web: [path.resolve(`./src/web/`), path.resolve(__dirname, `./src/web/`)],
+      server: [
+        path.resolve(`./src/server/`),
+        path.resolve(__dirname, `./src/server/`),
       ],
     },
     extensions: [".js", ".jsx", ".ts", ".tsx"],
@@ -202,47 +169,14 @@ const serverConf = {
 
   resolve: {
     alias: {
-      components: [
-        path.resolve(`./src/components/`),
-        path.resolve(__dirname, `./src/components/`),
-      ],
-      pages: [
-        path.resolve(`./src/pages/`),
-        path.resolve(__dirname, `./src/pages/`),
-      ],
-      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `./src/api/`)],
-      routes: [
-        path.resolve(`./src/routes/`),
-        path.resolve(__dirname, `./src/routes/`),
-      ],
-      assets: [
-        path.resolve(`./src/assets/`),
-        path.resolve(__dirname, `./src/assets/`),
-      ],
-      modules: [
-        path.resolve(`./src/modules/`),
-        path.resolve(__dirname, `./src/modules/`),
-      ],
-      layout: [
-        path.resolve(`./src/layout/`),
-        path.resolve(__dirname, `./src/layout/`),
-      ],
-      services: [
-        path.resolve(`./src/services/`),
-        path.resolve(__dirname, `./src/services/`),
-      ],
-      dataServices: [
-        path.resolve(`./src/dataServices/`),
-        path.resolve(__dirname, `./src/dataServices/`),
-      ],
-
-      hooks: [
-        path.resolve(`./src/hooks/`),
-        path.resolve(__dirname, `./src/hooks/`),
-      ],
       i18n: [
         path.resolve(`./src/i18n/`),
         path.resolve(__dirname, `./src/i18n/`),
+      ],
+      web: [path.resolve(`./src/web/`), path.resolve(__dirname, `./src/web/`)],
+      server: [
+        path.resolve(`./src/server/`),
+        path.resolve(__dirname, `./src/server/`),
       ],
     },
 

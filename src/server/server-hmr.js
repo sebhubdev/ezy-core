@@ -8,15 +8,13 @@ require("dotenv").config();
 
 const app = express();
 
-console.log(process.env.LOCAL);
-
 const webpackCompiler = webpack({
   entry: [
     "webpack-hot-middleware/client",
     path.resolve(
       process.env.LOCAL
-        ? "./src/index.js"
-        : "node_modules/ezy-core/src/index.js"
+        ? "./src/web/index.js"
+        : "node_modules/ezy-core/src/web/index.js"
     ),
   ],
   mode: "development",
