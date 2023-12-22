@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import GenericLayout from "./layout/GenericLayout";
-import Header from "./layout/Header/Header";
-import Footer from "./layout/Footer/Footer";
-import resolveRequest from "./api/resolveRequest";
-import getFirstData from "api/getFirstData";
-import Construction from "pages/Construction";
-import usersDataService from "dataServices/User";
-import routes from "api/routes";
-import loaders from "api/Prismic/loaders";
-import langs from "api/langs.json";
+import GenericLayout from "web/layout/GenericLayout";
+import Header from "web/layout/Header/Header";
+import Footer from "web/layout/Footer/Footer";
+import resolveRequest from "server/resolveRequest";
+import getFirstData from "server/getFirstData";
+import Construction from "web/pages/Construction";
+import usersDataService from "server/dataServices/User";
+import routes from "server/routes";
+import loaders from "server/Prismic/loaders";
+import langs from "server/langs.json";
 import { I18nProvider } from "i18n";
 
 const isSSR = process.env.SSR_APP === "true";

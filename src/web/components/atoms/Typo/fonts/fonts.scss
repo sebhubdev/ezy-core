@@ -1,0 +1,146 @@
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("web/components/atoms/Typo/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("web/components/atoms/Typo/fonts/OpenSans/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("web/components/atoms/Typo/fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("web/components/atoms/Typo/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("web/components/atoms/Typo/fonts/icomoon.eot?a1f7ly");
+  src: url("web/components/atoms/Typo/fonts/icomoon.eot?a1f7ly#iefix")
+      format("embedded-opentype"),
+    url("web/components/atoms/Typo/fonts/icomoon.ttf?a1f7ly") format("truetype"),
+    url("web/components/atoms/Typo/fonts/icomoon.woff?a1f7ly") format("woff"),
+    url("web/components/atoms/Typo/fonts/icomoon.svg?a1f7ly#icomoon")
+      format("svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: never;
+  text-transform: none;
+}
+
+.icon-add:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-back:before {
+  content: "\e902";
+}
+.icon-c-arrow-left:before {
+  content: "\e903";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-delete:before {
+  content: "\e905";
+}
+.icon-dot:before {
+  content: "\e906";
+}
+.icon-download:before {
+  content: "\e907";
+}
+.icon-edit:before {
+  content: "\e908";
+}
+.icon-enter_full_screen:before {
+  content: "\e909";
+}
+.icon-exit_full_screen:before {
+  content: "\e90a";
+}
+.icon-facebook:before {
+  content: "\e90b";
+}
+.icon-facebook_footer .path1:before {
+  content: "\e90c";
+  color: rgb(74, 100, 164);
+}
+.icon-facebook_footer .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(73, 98, 163);
+}
+.icon-facebook_header:before {
+  content: "\e90e";
+}
+.icon-instagram:before {
+  content: "\e90f";
+}
+.icon-instagram_footer:before {
+  content: "\e910";
+}
+.icon-instagram_header:before {
+  content: "\e911";
+}
+.icon-instagram_header_2:before {
+  content: "\e912";
+}
+.icon-lock:before {
+  content: "\e913";
+}
+.icon-menu:before {
+  content: "\e914";
+}
+.icon-seo:before {
+  content: "\e915";
+}
+.icon-star:before {
+  content: "\e916";
+}
+.icon-star_full:before {
+  content: "\e917";
+}
+.icon-thin-arrow:before {
+  content: "\e918";
+}
+.icon-user:before {
+  content: "\e919";
+}

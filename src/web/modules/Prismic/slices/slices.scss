@@ -1,0 +1,22 @@
+@import "~web/modules/Prismic/slices/Cards/Cards";
+@import "~web/modules/Prismic/slices/Separator/Separator";
+@import "~web/modules/Prismic/slices/Image/Image";
+@import "~web/modules/Prismic/slices/TextAndImage/TextAndImage";
+@import "~web/modules/Prismic/slices/PageTitle/PageTitle";
+
+.slice {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 2rem;
+  width: 100%;
+
+  @media (min-width: $sm-width) {
+    margin-top: 5rem;
+  }
+
+  &-full {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}

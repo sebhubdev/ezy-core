@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import getFirstData from "api/getFirstData";
+import getFirstData from "server/getFirstData";
 import headers from "./headers";
-import routes from "api/routes";
-import loaders from "api/Prismic/loaders";
-import langs from "api/langs.json";
+import routes from "server/routes";
+import loaders from "server/Prismic/loaders";
+import langs from "server/langs.json";
 import makeApp from "./makeApp";
 import apiroutes from "./api/routes.js";
 
@@ -20,7 +20,6 @@ app.use(cors());
 // } else {
 //   app.use("/statics", headers, express.static("build/statics"));
 // }
-
 
 app.use("/statics", headers, express.static("build/statics"));
 

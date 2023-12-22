@@ -1,0 +1,16 @@
+@import "~web/layout/Header/Header";
+@import "~web/layout/Footer/Footer";
+
+.generic-layout {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  &__content {
+    position: relative;
+    max-width: $lg-width;
+    margin: auto;
+    padding: 0 2rem;
+    min-height: 100vh;
+  }
+}

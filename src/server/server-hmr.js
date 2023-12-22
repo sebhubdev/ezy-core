@@ -73,45 +73,20 @@ const webpackCompiler = webpack({
   ],
   resolve: {
     alias: {
-      components: [
-        path.resolve(`./src/components/`),
-        path.resolve(__dirname, `../components/`),
-      ],
-      pages: [
-        path.resolve(`./src/pages/`),
-        path.resolve(__dirname, `../pages/`),
-      ],
-      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `../api/`)],
-      routes: [
-        path.resolve(`./src/routes/`),
-        path.resolve(__dirname, `../routes/`),
-      ],
       assets: [
         path.resolve(`./src/assets/`),
         path.resolve(__dirname, `../assets/`),
-      ],
-      modules: [
-        path.resolve(`./src/modules/`),
-        path.resolve(__dirname, `../modules/`),
-      ],
-      layout: [
-        path.resolve(`./src/layout/`),
-        path.resolve(__dirname, `../layout/`),
-      ],
-      services: [
-        path.resolve(`./src/services/`),
-        path.resolve(__dirname, `../services/`),
       ],
       dataServices: [
         path.resolve(`./src/dataServices/`),
         path.resolve(__dirname, `../dataServices/`),
       ],
-
-      hooks: [
-        path.resolve(`./src/hooks/`),
-        path.resolve(__dirname, `../hooks/`),
-      ],
       i18n: [path.resolve(`./src/i18n/`), path.resolve(__dirname, `../i18n/`)],
+      web: [path.resolve(`./src/web/`), path.resolve(__dirname, `../web/`)],
+      server: [
+        path.resolve(`./src/server/`),
+        path.resolve(__dirname, `../server/`),
+      ],
     },
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
