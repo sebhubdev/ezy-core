@@ -13,11 +13,6 @@ const imagesConf = {
     publicPath: "/statics/",
   },
 };
-console.log(path.resolve(__dirname, "./src", "index2.js"));
-
-console.log(path.resolve(__dirname, "../../build/statics/"));
-
-console.log(process.env.LOCAL);
 
 const clientConf = {
   mode: "production",
@@ -89,43 +84,46 @@ const clientConf = {
     alias: {
       components: [
         path.resolve(`./src/components/`),
-        path.resolve(__dirname, `../components/`),
+        path.resolve(__dirname, `./src/components/`),
       ],
       pages: [
         path.resolve(`./src/pages/`),
-        path.resolve(__dirname, `../pages/`),
+        path.resolve(__dirname, `./src/pages/`),
       ],
-      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `../api/`)],
+      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `./src/api/`)],
       routes: [
         path.resolve(`./src/routes/`),
-        path.resolve(__dirname, `../routes/`),
+        path.resolve(__dirname, `./src/routes/`),
       ],
       assets: [
         path.resolve(`./src/assets/`),
-        path.resolve(__dirname, `../assets/`),
+        path.resolve(__dirname, `./src/assets/`),
       ],
       modules: [
         path.resolve(`./src/modules/`),
-        path.resolve(__dirname, `../modules/`),
+        path.resolve(__dirname, `./src/modules/`),
       ],
       layout: [
         path.resolve(`./src/layout/`),
-        path.resolve(__dirname, `../layout/`),
+        path.resolve(__dirname, `./src/layout/`),
       ],
       services: [
         path.resolve(`./src/services/`),
-        path.resolve(__dirname, `../services/`),
+        path.resolve(__dirname, `./src/services/`),
       ],
       dataServices: [
         path.resolve(`./src/dataServices/`),
-        path.resolve(__dirname, `../dataServices/`),
+        path.resolve(__dirname, `./src/dataServices/`),
       ],
 
       hooks: [
         path.resolve(`./src/hooks/`),
-        path.resolve(__dirname, `../hooks/`),
+        path.resolve(__dirname, `./src/hooks/`),
       ],
-      i18n: [path.resolve(`./src/i18n/`), path.resolve(__dirname, `../i18n/`)],
+      i18n: [
+        path.resolve(`./src/i18n/`),
+        path.resolve(__dirname, `./src/i18n/`),
+      ],
     },
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
@@ -206,43 +204,46 @@ const serverConf = {
     alias: {
       components: [
         path.resolve(`./src/components/`),
-        path.resolve(__dirname, `../components/`),
+        path.resolve(__dirname, `./src/components/`),
       ],
       pages: [
         path.resolve(`./src/pages/`),
-        path.resolve(__dirname, `../pages/`),
+        path.resolve(__dirname, `./src/pages/`),
       ],
-      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `../api/`)],
+      api: [path.resolve(`./src/api/`), path.resolve(__dirname, `./src/api/`)],
       routes: [
         path.resolve(`./src/routes/`),
-        path.resolve(__dirname, `../routes/`),
+        path.resolve(__dirname, `./src/routes/`),
       ],
       assets: [
         path.resolve(`./src/assets/`),
-        path.resolve(__dirname, `../assets/`),
+        path.resolve(__dirname, `./src/assets/`),
       ],
       modules: [
         path.resolve(`./src/modules/`),
-        path.resolve(__dirname, `../modules/`),
+        path.resolve(__dirname, `./src/modules/`),
       ],
       layout: [
         path.resolve(`./src/layout/`),
-        path.resolve(__dirname, `../layout/`),
+        path.resolve(__dirname, `./src/layout/`),
       ],
       services: [
         path.resolve(`./src/services/`),
-        path.resolve(__dirname, `../services/`),
+        path.resolve(__dirname, `./src/services/`),
       ],
       dataServices: [
         path.resolve(`./src/dataServices/`),
-        path.resolve(__dirname, `../dataServices/`),
+        path.resolve(__dirname, `./src/dataServices/`),
       ],
 
       hooks: [
         path.resolve(`./src/hooks/`),
-        path.resolve(__dirname, `../hooks/`),
+        path.resolve(__dirname, `./src/hooks/`),
       ],
-      i18n: [path.resolve(`./src/i18n/`), path.resolve(__dirname, `../i18n/`)],
+      i18n: [
+        path.resolve(`./src/i18n/`),
+        path.resolve(__dirname, `./src/i18n/`),
+      ],
     },
 
     extensions: [".js", ".jsx", ".ts", ".tsx"],
