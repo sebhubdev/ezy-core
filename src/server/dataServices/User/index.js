@@ -1,3 +1,3 @@
-import usersDataService from "server/dataServices/User";
+import usersDataService from "./user";
 
 export default usersDataService;

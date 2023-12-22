@@ -73,14 +73,6 @@ const webpackCompiler = webpack({
   ],
   resolve: {
     alias: {
-      assets: [
-        path.resolve(`./src/assets/`),
-        path.resolve(__dirname, `../assets/`),
-      ],
-      dataServices: [
-        path.resolve(`./src/dataServices/`),
-        path.resolve(__dirname, `../dataServices/`),
-      ],
       i18n: [path.resolve(`./src/i18n/`), path.resolve(__dirname, `../i18n/`)],
       web: [path.resolve(`./src/web/`), path.resolve(__dirname, `../web/`)],
       server: [

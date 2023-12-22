@@ -1,3 +1,3 @@
-import contactDataService from "server/dataServices/Contact";
+import contactDataService from "./contact";
 
 export default contactDataService;
