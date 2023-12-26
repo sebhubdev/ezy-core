@@ -1,12 +1,14 @@
 .full-logo {
+  height: 100%;
   &__inner {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 100%;
   }
   .logo {
     &-icon {
-      width: 2rem;
+      // width: 2rem;
       height: 3rem;
     }
 

@@ -8,7 +8,7 @@ const Footer = ({ nav }) => {
     <footer className="main-footer">
       <div>
         <FullLogo />
-        <p>Copyright © 2023 chiro-bressuire.fr</p>
+        <p className="main-footer__copyright">Copyright</p>
         <Navigator items={nav} />
       </div>
     </footer>
