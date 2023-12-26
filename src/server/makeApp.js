@@ -49,7 +49,7 @@ const doc = (initialData, appString, helmet, scriptTags) => {
   </html>`;
 };
 
-const statsFile = "./build/statics/loadable-stats.json";
+const statsFile = "./statics/loadable-stats.json";
 const extractor = new ChunkExtractor({ statsFile });
 
 const makeApp = (initialData, location) => {

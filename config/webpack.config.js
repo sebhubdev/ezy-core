@@ -4,6 +4,7 @@ const Dotenv = require("dotenv-webpack");
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const LoadablePlugin = require("@loadable/webpack-plugin");
+const fs = require("fs");
 
 const imagesConf = {
   test: /\.(png|jpe?g|gif)$/i,
@@ -17,13 +18,10 @@ const imagesConf = {
 const clientConf = {
   mode: "production",
   target: "web",
-  entry: path.resolve(__dirname, "./src/web", "index.js"),
+  entry: path.resolve(process.cwd(), "src/web", "index.js"),
   output: {
     filename: "0.chunk.js",
-    path: path.resolve(
-      __dirname,
-      process.env.LOCAL ? "./build/statics/" : "../../build/statics/"
-    ),
+    path: path.resolve(process.cwd(), "build/statics/"),
     publicPath: "/statics/",
     chunkFilename: "[chunkhash].chunk.js",
   },
@@ -31,7 +29,7 @@ const clientConf = {
   module: {
     rules: [
       {
-        // exclude: /node_modules/,
+        exclude: /node_modules/,
         test: /.js$/,
         use: {
           loader: "babel-loader",
@@ -82,15 +80,9 @@ const clientConf = {
   ],
   resolve: {
     alias: {
-      i18n: [
-        path.resolve(`./src/i18n/`),
-        path.resolve(__dirname, `./src/i18n/`),
-      ],
-      web: [path.resolve(`./src/web/`), path.resolve(__dirname, `./src/web/`)],
-      server: [
-        path.resolve(`./src/server/`),
-        path.resolve(__dirname, `./src/server/`),
-      ],
+      i18n: path.resolve(process.cwd(), "src/i18n"),
+      web: path.resolve(process.cwd(), "src/web"),
+      server: path.resolve(process.cwd(), "src/server"),
     },
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
@@ -99,13 +91,10 @@ const clientConf = {
 const serverConf = {
   mode: "production",
   target: "node",
-  entry: path.resolve(__dirname, "src/server", "server.js"),
+  entry: path.resolve(process.cwd(), "src/server", "server.js"),
   output: {
     filename: "server.js",
-    path: path.resolve(
-      __dirname,
-      process.env.LOCAL ? "./build/" : "../../build/"
-    ),
+    path: path.resolve(process.cwd(), "build/"),
     publicPath: "/",
     chunkFilename: "statics/[chunkhash].chunk.js",
   },
@@ -138,7 +127,7 @@ const serverConf = {
         ],
       },
       {
-        // exclude: /node_modules/,
+        exclude: /node_modules/,
         test: /.js$/,
         use: {
           loader: "babel-loader",
@@ -169,15 +158,9 @@ const serverConf = {
 
   resolve: {
     alias: {
-      i18n: [
-        path.resolve(`./src/i18n/`),
-        path.resolve(__dirname, `./src/i18n/`),
-      ],
-      web: [path.resolve(`./src/web/`), path.resolve(__dirname, `./src/web/`)],
-      server: [
-        path.resolve(`./src/server/`),
-        path.resolve(__dirname, `./src/server/`),
-      ],
+      i18n: path.resolve(process.cwd(), "src/i18n"),
+      web: path.resolve(process.cwd(), "src/web"),
+      server: path.resolve(process.cwd(), "src/server"),
     },
 
     extensions: [".js", ".jsx", ".ts", ".tsx"],

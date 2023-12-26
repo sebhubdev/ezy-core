@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 console.log("Init build");
 
-const webpackConf = require("../webpack.config.js");
+const webpackConf = require("../config/webpack.config.js");
 
 webpack(webpackConf).run((err, stats) => {
   // see https://webpack.js.org/api/node/#error-handling
