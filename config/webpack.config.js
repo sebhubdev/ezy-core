@@ -18,7 +18,11 @@ const imagesConf = {
 const clientConf = {
   mode: "production",
   target: "web",
-  entry: path.resolve(process.cwd(), "src/web", "index.js"),
+  entry: path.resolve(
+    process.cwd(),
+    process.env.LOCAL ? "src/web" : "node_modules/ezy-core/src/web",
+    "index.js"
+  ),
   output: {
     filename: "0.chunk.js",
     path: path.resolve(process.cwd(), "build/statics/"),
@@ -29,7 +33,7 @@ const clientConf = {
   module: {
     rules: [
       {
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
         test: /.js$/,
         use: {
           loader: "babel-loader",
@@ -80,9 +84,18 @@ const clientConf = {
   ],
   resolve: {
     alias: {
-      i18n: path.resolve(process.cwd(), "src/i18n"),
-      web: path.resolve(process.cwd(), "src/web"),
-      server: path.resolve(process.cwd(), "src/server"),
+      i18n: [
+        path.resolve(process.cwd(), "src/i18n"),
+        path.resolve(process.cwd(), "node_modules/ezy-core/src/i18n"),
+      ],
+      web: [
+        path.resolve(process.cwd(), "src/web"),
+        path.resolve(process.cwd(), "node_modules/ezy-core/src/web"),
+      ],
+      server: [
+        path.resolve(process.cwd(), "src/server"),
+        path.resolve(process.cwd(), "node_modules/ezy-core/src/server"),
+      ],
     },
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
@@ -91,7 +104,11 @@ const clientConf = {
 const serverConf = {
   mode: "production",
   target: "node",
-  entry: path.resolve(process.cwd(), "src/server", "server.js"),
+  entry: path.resolve(
+    process.cwd(),
+    process.env.LOCAL ? "src/server" : "node_modules/ezy-core/src/server",
+    "server.js"
+  ),
   output: {
     filename: "server.js",
     path: path.resolve(process.cwd(), "build/"),
@@ -127,7 +144,7 @@ const serverConf = {
         ],
       },
       {
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
         test: /.js$/,
         use: {
           loader: "babel-loader",
@@ -158,9 +175,18 @@ const serverConf = {
 
   resolve: {
     alias: {
-      i18n: path.resolve(process.cwd(), "src/i18n"),
-      web: path.resolve(process.cwd(), "src/web"),
-      server: path.resolve(process.cwd(), "src/server"),
+      i18n: [
+        path.resolve(process.cwd(), "src/i18n"),
+        path.resolve(process.cwd(), "node_modules/ezy-core/src/i18n"),
+      ],
+      web: [
+        path.resolve(process.cwd(), "src/web"),
+        path.resolve(process.cwd(), "node_modules/ezy-core/src/web"),
+      ],
+      server: [
+        path.resolve(process.cwd(), "src/server"),
+        path.resolve(process.cwd(), "node_modules/ezy-core/src/server"),
+      ],
     },
 
     extensions: [".js", ".jsx", ".ts", ".tsx"],

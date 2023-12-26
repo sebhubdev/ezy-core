@@ -8,11 +8,8 @@
     "ezy-core": "./bin/ezy-core"
   },
   "scripts": {
-    "test": "node ./bin/ezy-core start",
     "start": "node ./bin/ezy-core start",
     "build": "node ./bin/ezy-core build --env production",
-    "build2": "webpack --env production",
-    "dev": "webpack -w & nodemon ./build/server.js",
     "prod": "node ./build/server.js"
   },
   "keywords": [],
