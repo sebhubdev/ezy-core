@@ -5,14 +5,14 @@
   padding: 0 1rem;
   background: $primary;
   text-align: center;
-  height: height(header);
+  height: 5.5rem;
   display: flex;
   align-items: center;
   z-index: 999999;
 
   @media (min-width: $md-width) {
     padding: 1rem;
-    height: height(header, md);
+    height: 5.5rem;
   }
 
   &__inner {
@@ -230,7 +230,7 @@
   }
 
   &__mobile-separator {
-    height: height(header);
+    height: 5.5rem;
 
     @media (min-width: $md-width) {
       display: none;
@@ -238,7 +238,7 @@
   }
 
   &__desktop-separator {
-    height: height(header);
+    height: 5.5rem;
     display: none;
 
     @media (min-width: $md-width) {
@@ -248,7 +248,7 @@
 
   .search-bar {
     position: absolute;
-    top: height(header);
+    top: 5.5rem;
     left: 0;
     overflow: hidden;
     padding: 0 2rem;
