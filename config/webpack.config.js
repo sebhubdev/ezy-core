@@ -4,7 +4,6 @@ const Dotenv = require("dotenv-webpack");
 const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const LoadablePlugin = require("@loadable/webpack-plugin");
-const fs = require("fs");
 
 const imagesConf = {
   test: /\.(png|jpe?g|gif)$/i,
