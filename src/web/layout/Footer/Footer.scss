@@ -1,5 +1,5 @@
 .main-footer {
-  background: color(primary);
+  background: $primary;
   height: auto;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@
   }
 
   p {
-    color: color(mono, transLight);
+    color: $transLight;
     font-weight: 900;
     font-size: 1.2rem;
   }
@@ -33,7 +33,7 @@
             opacity: 0.5;
           }
           &__label {
-            color: color(mono, transLight);
+            color: $transLight;
             font-weight: 900;
             font-size: 1.2rem;
           }

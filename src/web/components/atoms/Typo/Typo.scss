@@ -2,26 +2,26 @@
 @import "Heading/Heading";
 
 .font-primary {
-  font-family: default(font-family);
-  font-weight: default(weight, medium);
+  font-family: $font-primary;
+  font-weight: $weight-md;
 }
 
 .font-primary-light {
-  font-family: default(font-family, light);
+  font-family: $font-primary;
   font-weight: 100;
 }
 
 .font-secondary {
-  font-family: default(font-family, secondary);
+  font-family: $font-secondary;
 }
 
 .font-tertiary {
-  font-family: default(font-family, tertiary);
+  font-family: $font-tertiary;
 }
 
 p,
 span {
-  font-family: default(font-family);
+  font-family: $font-primary;
 
   color: #000;
   font-size: 1.4rem;
@@ -37,7 +37,7 @@ span {
 }
 
 .text {
-  font-family: default(font-family);
+  font-family: $font-primary;
   font-size: 1.4rem;
   line-height: 2.4rem;
 
@@ -91,13 +91,13 @@ a {
   &:hover,
   &:active,
   &:focus {
-    color: color(primary);
+    color: $primary;
   }
 }
 
 .fancy-title {
-  color: color(primary);
-  font-family: default(font-family, fancy);
+  color: $primary;
+  font-family: $font-primary;
   font-size: 5rem;
   line-height: normal;
   padding: 0;
@@ -114,29 +114,29 @@ a {
 }
 
 .font-primary {
-  font-family: default(font-family);
+  font-family: $font-primary;
 }
 
 .font-primary-medium {
-  font-family: default(font-family);
+  font-family: $font-primary;
 }
 
 .font-secondary {
-  font-family: default(font-family, secondary);
+  font-family: $font-secondary;
 }
 
 .font-secondary-light {
-  font-family: default(font-family, light);
+  font-family: $font-primary;
 }
 
 .style-title {
   font-family: inherit;
-  font-weight: default(weight, medium);
+  font-weight: $weight-md;
 }
 
 strong,
 b {
-  font-weight: default(weight, medium);
+  font-weight: $weight-md;
 }
 
 .barre {
@@ -156,8 +156,8 @@ b {
 }
 
 .green {
-  color: color(primary);
+  color: $primary;
 }
 .orange {
-  color: color(secondary);
+  color: $secondary;
 }

@@ -11,13 +11,13 @@
     cursor: pointer;
 
     .icon {
-      fill: color(mono, transLight);
+      fill: $transLight;
       transition: fill 0.3s ease;
     }
 
     &:hover {
       .icon {
-        fill: color(secondary, light);
+        fill: $secondary-light;
       }
     }
   }

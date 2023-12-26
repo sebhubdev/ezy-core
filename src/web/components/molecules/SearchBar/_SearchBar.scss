@@ -1,5 +1,5 @@
 .search-bar {
-  background-color: color(background, grey);
+  background-color: $bg-grey;
   width: 100%;
   padding: 2rem;
 
@@ -12,7 +12,7 @@
     align-items: center;
 
     .icon {
-      fill: color(secondary, light);
+      fill: $secondary-light;
     }
   }
 }

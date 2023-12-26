@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node ./bin/ezy-core start",
     "build": "node ./bin/ezy-core build --env production",
-    "prod": "node ./build/server.js"
+    "prod": "node ./build/server.js",
+    "update": "node ./bin/ezy-core update"
   },
   "keywords": [],
   "author": "",

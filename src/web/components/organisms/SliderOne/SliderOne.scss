@@ -9,7 +9,7 @@
 .slider-one {
   .swiper-button-prev,
   .swiper-button-next {
-    color: color(primary);
+    color: $primary;
     margin-top: 4rem;
 
     &:after {
@@ -23,7 +23,7 @@
     transform: rotate(180deg);
   }
   .swiper-pagination-bullet {
-    background-color: color(primary);
+    background-color: $primary;
   }
 
   &__actions {

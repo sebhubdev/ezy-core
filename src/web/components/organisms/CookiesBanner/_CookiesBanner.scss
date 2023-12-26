@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   padding: 2rem;
-  background-color: color(mono, light);
+  background-color: $light;
   box-shadow: -0.3rem 0 1rem rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
@@ -40,7 +40,7 @@
   &__title {
     font-size: 2rem;
     font-weight: 500;
-    color: color(secondary);
+    color: $secondary;
     margin-bottom: 1rem;
     display: block;
   }

@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   padding: 0 1rem;
-  background: color(primary);
+  background: $primary;
   text-align: center;
   height: height(header);
   display: flex;
@@ -76,10 +76,10 @@
                 padding: 1.5rem 0;
                 display: block;
                 text-decoration: none;
-                border-bottom: 1px solid color(mono, light);
+                border-bottom: 1px solid $light;
 
                 &__label {
-                  color: color(mono, light);
+                  color: $light;
                 }
               }
 
@@ -98,14 +98,14 @@
         }
 
         .icon {
-          fill: color(mono, transLight);
+          fill: $transLight;
           width: 3rem;
           cursor: pointer;
         }
 
         .modal {
           &__inner {
-            background-color: color(primary);
+            background-color: $primary;
             padding: 0;
           }
 
@@ -147,7 +147,7 @@
         .nav-item {
           &.active {
             .main-nav__item__link__label {
-              color: color(secondary);
+              color: $secondary;
             }
           }
           &__link {
@@ -155,8 +155,8 @@
             text-decoration: none;
 
             &__label {
-              color: color(mono, light);
-              font-family: default(font-family, light);
+              color: $light;
+              font-family: $font-primary;
               transition: all 0.3s ease;
             }
           }
@@ -165,7 +165,7 @@
             .nav-item {
               &__link {
                 &__label {
-                  color: color(secondary);
+                  color: $secondary;
                 }
               }
             }
@@ -202,17 +202,17 @@
         }
 
         .icon {
-          fill: color(mono, transLight);
+          fill: $transLight;
           transition: fill 0.3s ease;
 
           &.logged {
-            fill: color(secondary);
+            fill: $secondary;
           }
         }
 
         &:hover {
           .icon {
-            fill: color(secondary, light);
+            fill: $secondary-light;
           }
         }
       }

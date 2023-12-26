@@ -1,5 +1,5 @@
-@import "~web/assets/scss/commons/reset";
 @import "~web/assets/scss/commons/variables";
+@import "~web/assets/scss/commons/reset";
 @import "~web/assets/scss/commons/helpers";
 @import "~web/assets/scss/commons/richtext";
 @import "~web/components/components";
@@ -8,11 +8,11 @@
 @import "~web/pages/pages";
 
 html {
-  font-family: default(font-family);
+  font-family: $font-primary;
   font-size: 62.5%;
   overflow-x: hidden;
   text-size-adjust: 100%;
-  color: color(text, medium);
+  color: $text-md;
   position: relative;
   overflow: hidden !important;
 }

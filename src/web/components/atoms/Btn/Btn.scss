@@ -4,11 +4,11 @@
   cursor: pointer;
 
   &-primary {
-    font-family: default(font-family, secondary);
-    background-color: color(secondary);
-    border: 2px solid color(secondary);
+    font-family: $font-secondary;
+    background-color: $secondary;
+    border: 2px solid $secondary;
     border-radius: 1rem;
-    color: color(mono, light);
+    color: $light;
     font-size: 2.4rem;
     padding: 0.5rem 3rem;
     transition: color 0.3s ease, background-color 0.3s ease;
@@ -23,19 +23,19 @@
     &:hover,
     &:focus,
     &:active {
-      background-color: color(mono, light);
-      color: color(secondary);
+      background-color: $light;
+      color: $secondary;
 
       a {
-        color: color(secondary);
+        color: $secondary;
       }
     }
   }
 
   &-secondary {
-    border: 1px solid color(primary);
-    color: color(primary);
-    font-family: default(font-family);
+    border: 1px solid $primary;
+    color: $primary;
+    font-family: $font-primary;
     font-size: 2rem;
     outline: none;
     padding: 01rem 3rem;
@@ -46,35 +46,35 @@
     transition: background-color 0.5s ease, color 0.5s ease;
 
     &:hover {
-      background-color: color(primary);
-      color: color(mono, light);
+      background-color: $primary;
+      color: $light;
     }
 
     &-light {
-      border: 1px solid color(mono, light) !important;
-      color: color(mono, light);
+      border: 1px solid $light !important;
+      color: $light;
       text-transform: none;
-      font-family: default(font-family, secondary);
+      font-family: $font-secondary;
       font-weight: 700;
 
       &:hover,
       &:focus,
       &:active {
-        background-color: color(mono, light);
-        color: color(tertiary);
+        background-color: $light;
+        color: $tertiary;
       }
     }
   }
 
   &-link {
-    color: color(primary);
+    color: $primary;
     position: relative;
 
     &::before {
       content: " ";
       width: 0rem;
       height: 0.3rem;
-      background-color: color(secondary);
+      background-color: $secondary;
       display: block;
       position: absolute;
       left: 0;
@@ -84,7 +84,7 @@
     &:hover,
     &:focus,
     &:active {
-      color: color(secondary);
+      color: $secondary;
 
       &::before {
         width: 100%;
@@ -93,7 +93,7 @@
   }
 
   &-arrow {
-    background-color: color(secondary);
+    background-color: $secondary;
     width: 3rem;
     height: 3rem;
     border-radius: 10rem;
@@ -105,11 +105,11 @@
     &:hover,
     &:focus,
     &:active {
-      background-color: color(primary);
+      background-color: $primary;
     }
 
     .icon {
-      fill: color(mono, light);
+      fill: $light;
     }
   }
 }

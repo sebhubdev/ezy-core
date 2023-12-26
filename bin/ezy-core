@@ -12,6 +12,9 @@ switch (script) {
   case "build":
     require("../scripts/build");
     break;
+  case "update":
+    require("../scripts/update");
+    break;
 
   default:
     console.log("the script doesn't exists");

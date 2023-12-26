@@ -19,7 +19,7 @@
       visibility: visible;
     }
     &__inner {
-      background-color: color(mono, light);
+      background-color: $light;
       padding: 2rem 0;
       border-radius: 0.5rem;
       box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.5);
@@ -45,7 +45,7 @@
     }
 
     &:hover {
-      background-color: color(background);
+      background-color: $bg;
     }
 
     &__icon {

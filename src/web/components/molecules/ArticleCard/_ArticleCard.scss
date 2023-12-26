@@ -5,7 +5,7 @@
   transition: box-shadow 0.3s ease;
 
   &:hover {
-    box-shadow: 3px 3px 10px 0px rgba(color(primary), 0.5);
+    box-shadow: 3px 3px 10px 0px rgba($primary, 0.5);
   }
 
   &__image {
@@ -43,7 +43,7 @@
 
     &:hover {
       .h4 {
-        color: color(primary);
+        color: $primary;
       }
     }
 
@@ -58,7 +58,7 @@
     margin-top: 1rem;
 
     span {
-      color: color(secondary);
+      color: $secondary;
       font-weight: 400;
     }
   }

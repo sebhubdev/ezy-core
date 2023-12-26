@@ -1,9 +1,9 @@
 .newsletter-block {
-  color: color(mono, light);
+  color: $light;
   padding-top: 6rem;
   margin-top: -6rem;
   &__inner {
-    background-color: color(tertiary);
+    background-color: $tertiary;
     margin: auto;
     padding: 4rem 0;
 
@@ -41,13 +41,13 @@
     }
 
     &__title {
-      font-family: default(font-family, fancy);
+      font-family: $font-primary;
       font-size: 5.5rem;
       line-height: 5.5rem;
     }
 
     &__text {
-      font-family: default(font-family, secondary);
+      font-family: $font-secondary;
       position: relative;
       text-align: center;
       margin-top: 3rem;
@@ -56,15 +56,15 @@
         margin-top: 2rem;
       }
       p {
-        font-family: default(font-family, secondary);
+        font-family: $font-secondary;
         position: relative;
         z-index: 2;
         font-size: 2.5rem;
         line-height: 2.5rem;
 
         .dark {
-          font-family: default(font-family, secondary);
-          color: color(tertiary);
+          font-family: $font-secondary;
+          color: $tertiary;
           font-size: inherit;
           line-height: inherit;
         }
@@ -87,7 +87,7 @@
     &__cite {
       margin: 4rem auto 0;
       text-align: center;
-      font-family: default(font-family, tertiary);
+      font-family: $font-tertiary;
       font-size: 3.5rem;
       line-height: 3.5rem;
 
@@ -128,8 +128,8 @@
       padding: 0;
       &__content {
         &.success {
-          color: color(mono, light);
-          border-color: color(mono, light);
+          color: $light;
+          border-color: $light;
         }
       }
     }
@@ -152,7 +152,7 @@
         margin-right: 2rem;
         font-size: 2rem;
         line-height: 2rem;
-        font-family: default(font-family, secondary);
+        font-family: $font-secondary;
         margin-left: -2rem;
 
         @media (min-width: $md-width) {
@@ -179,15 +179,15 @@
         text-align: center;
         width: 65%;
         .btn {
-          background-color: color(mono, light);
-          color: color(tertiary);
-          font-family: default(font-family, tertiary);
+          background-color: $light;
+          color: $tertiary;
+          font-family: $font-tertiary;
           font-size: 3rem;
           padding: 0.2rem 3rem;
           border-radius: 0.5rem;
           margin-top: 1rem;
           cursor: pointer;
-          border: 1px solid color(mono, light);
+          border: 1px solid $light;
           transition: color 0.3s ease, background-color 0.3s ease;
 
           @media (min-width: $md-width) {
@@ -197,8 +197,8 @@
           }
 
           &:hover {
-            background-color: color(tertiary);
-            color: color(mono, light);
+            background-color: $tertiary;
+            color: $light;
           }
         }
       }

@@ -10,10 +10,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: color(mono, darksofthover);
+  background-color: $primary;
 
   &__msg {
-    color: color(primary);
+    color: $primary;
     margin-top: 1rem;
   }
 }

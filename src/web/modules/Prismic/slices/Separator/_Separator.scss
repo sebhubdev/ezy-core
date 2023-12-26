@@ -54,7 +54,7 @@
 
   &.with-line {
     &.top {
-      border-top: 2px solid color(primary);
+      border-top: 2px solid $primary;
     }
 
     &.middle {
@@ -64,13 +64,13 @@
     }
 
     &.bottom {
-      border-bottom: 2px solid color(primary);
+      border-bottom: 2px solid $primary;
     }
   }
 
   .middle-line {
     display: none;
     height: 2px;
-    background-color: color(primary);
+    background-color: $primary;
   }
 }

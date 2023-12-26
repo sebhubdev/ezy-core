@@ -81,7 +81,7 @@ audio,
 video {
   border: 0;
   font: inherit;
-  font-family: default(font-family);
+  font-family: $font-primary;
   font-size: 100%;
   margin: 0;
   padding: 0;
@@ -103,7 +103,7 @@ menu,
 nav,
 section {
   display: block;
-  font-family: default(font-family);
+  font-family: $font-primary;
 }
 
 ol,
@@ -136,13 +136,13 @@ button,
 input,
 textarea {
   appearance: none;
-  font-family: default(font-family);
+  font-family: $font-primary;
 }
 
 button {
   background-color: transparent;
   border: 0;
-  font-family: default(font-family);
+  font-family: $font-primary;
   padding: 0;
 }
 

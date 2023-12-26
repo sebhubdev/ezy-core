@@ -30,7 +30,7 @@
       margin-right: 2rem;
       pointer-events: all;
       transition: all 0.3s ease;
-      background-color: color(secondary);
+      background-color: $secondary;
       width: 3.5rem;
       height: 3.5rem;
       display: flex;
@@ -45,10 +45,10 @@
         margin-right: 5rem;
       }
       &:hover {
-        background-color: color(primary);
+        background-color: $primary;
       }
       .icon {
-        fill: color(mono, light);
+        fill: $light;
         transform: rotate(-90deg);
         margin-top: -0.2rem;
       }

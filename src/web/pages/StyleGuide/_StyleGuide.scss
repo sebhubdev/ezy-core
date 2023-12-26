@@ -3,9 +3,9 @@
 
   &__title,
   &__item__title {
-    font-family: default(font-family);
+    font-family: $font-primary;
     text-align: left;
-    color: color(mono, dark) !important;
+    color: $dark !important;
 
     padding-left: 0;
     padding-bottom: 0;
@@ -16,7 +16,7 @@
   }
 
   &__item__content {
-    border-bottom: 1px solid color(mono, dark);
+    border-bottom: 1px solid $dark;
 
     .btn {
       margin-bottom: 1rem;

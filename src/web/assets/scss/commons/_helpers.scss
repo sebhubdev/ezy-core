@@ -5,7 +5,7 @@
 /* grid & space */
 
 hr {
-  border-top: 1px solid color(primary);
+  border-top: 1px solid $primary;
 }
 
 .no-underline {
@@ -17,7 +17,7 @@ hr {
 }
 
 .border {
-  border: 1px solid color(border);
+  border: 1px solid $border;
 }
 
 .valign-middle {
@@ -55,32 +55,32 @@ hr {
 
 /* bg color */
 .bg-white {
-  background-color: color(mono, light);
+  background-color: $light;
 }
 
 .bg-black {
-  background-color: color(mono, dark);
-  color: color(mono, light);
+  background-color: $dark;
+  color: $light;
 }
 
 .bg-grey {
-  background-color: color(background);
+  background-color: $bg;
 }
 
 .bg-tertiary {
-  background-color: color(tertiary);
+  background-color: $tertiary;
 }
 
 .bg-tertiary-light {
-  background-color: rgba(color(tertiary), 0.1);
+  background-color: rgba($tertiary, 0.1);
 }
 
 .color-secondary {
-  color: color(secondary);
+  color: $secondary;
 }
 
 .color-tertiary {
-  color: color(tertiary);
+  color: $tertiary;
 }
 
 /* links */
@@ -94,7 +94,7 @@ hr {
   position: relative;
 
   &::after {
-    background-color: color(text);
+    background-color: $text;
     bottom: -0.5rem;
     content: "";
     height: 0.05rem;
@@ -106,7 +106,7 @@ hr {
 
   &:hover {
     &::after {
-      background-color: color(primary);
+      background-color: $primary;
     }
   }
 }
@@ -196,11 +196,11 @@ hr {
 }
 
 .strong {
-  font-weight: default(weight, bold);
+  font-weight: $weight-bold;
 }
 
 .strong-medium {
-  font-weight: default(weight, medium);
+  font-weight: $weight-md;
 }
 
 .no-margin {
@@ -208,7 +208,7 @@ hr {
 }
 
 .help-block {
-  color: color(text);
+  color: $text;
   font-size: 1.4rem;
   line-height: 1.6;
 }

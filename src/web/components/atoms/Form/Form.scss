@@ -1,16 +1,16 @@
 input,
 textarea {
-  border: 1px solid color(secondary, light);
-  border-radius: default(radius);
+  border: 1px solid $secondary-light;
+  border-radius: $radius;
   font-size: 1.4rem;
   display: block;
   width: 100%;
   padding: 1.5rem 2rem;
-  font-family: default(font-family);
+  font-family: $font-primary;
   outline: none;
 
   &:focus {
-    outline: px solid color(secondary);
+    outline: px solid $secondary;
   }
 }
 

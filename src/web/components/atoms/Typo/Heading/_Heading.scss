@@ -1,6 +1,6 @@
 .h1,
 h1 {
-  font-family: default(font-family, tertiary);
+  font-family: $font-tertiary;
   font-size: 3.2rem;
   position: relative;
   font-weight: 700;
@@ -18,7 +18,7 @@ h1 {
     padding-bottom: 2rem;
     &:after {
       content: "";
-      background-color: color(primary);
+      background-color: $primary;
       width: 2rem;
       height: 2rem;
       border-radius: 2rem;
@@ -30,7 +30,7 @@ h1 {
 
     &:before {
       content: "";
-      background-color: color(secondary);
+      background-color: $secondary;
       width: 36rem;
       height: 0.5rem;
       border-radius: 1rem;
@@ -44,7 +44,7 @@ h1 {
 
 .h2,
 h2 {
-  font-family: default(font-family, tertiary);
+  font-family: $font-tertiary;
   font-size: 2.2rem;
   font-weight: 700;
 
@@ -61,7 +61,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 700;
-  font-family: default(font-family, tertiary);
+  font-family: $font-tertiary;
   line-height: 4rem;
   @media (min-width: $md-width) {
     font-size: 2rem;
@@ -70,14 +70,14 @@ h3 {
 
 .h4,
 h4 {
-  font-family: default(font-family, secondary);
+  font-family: $font-secondary;
   font-size: 2rem;
   font-weight: 700;
 }
 
 .h5,
 h5 {
-  font-family: default(font-family);
+  font-family: $font-primary;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.6rem;
@@ -86,7 +86,7 @@ h5 {
 
 .h6,
 h6 {
-  font-family: default(font-family);
+  font-family: $font-primary;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.6rem;
