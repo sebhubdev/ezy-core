@@ -72,7 +72,7 @@ const App = ({ initialData }) => {
             setLoading(false);
           })
           .catch((err) => {
-            navigate(`/not-content/`);
+            setPageData({});
             setLoading(false);
           });
       } else {
