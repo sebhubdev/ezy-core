@@ -58,6 +58,13 @@ export default [
     request: "legal",
   },
   {
+    path: "/not-content/",
+    component: loadable(() => import("web/pages/Errors/Error204"), {
+      fallback: <Loading />,
+    }),
+    needRequest: false,
+  },
+  {
     path: "*",
     component: loadable(() => import("web/pages/Error404"), {
       fallback: <Loading />,

@@ -50,7 +50,7 @@ routes.map((route) => {
             initialData.pageData = data.pageData;
           })
           .catch((err) => {
-            res.redirect(`/${lang}/not-found/`);
+            res.redirect(`/${lang}/not-content/`);
             isError = true;
           });
       } else {

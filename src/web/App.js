@@ -72,7 +72,7 @@ const App = ({ initialData }) => {
             setLoading(false);
           })
           .catch((err) => {
-            navigate(`/not-found/`);
+            navigate(`/not-content/`);
             setLoading(false);
           });
       } else {
