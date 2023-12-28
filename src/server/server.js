@@ -10,16 +10,10 @@ import makeApp from "server/makeApp";
 import apiroutes from "server/api/routes.js";
 
 dotenv.config();
-
 const app = express();
 app.use(cors());
-
 app.use(express.json());
-if (process.env.REMOTE == "true") {
-  app.use("/", headers, express.static("/"));
-} else {
-  app.use("/statics", headers, express.static("build/statics"));
-}
+app.use("/statics", headers, express.static("build/statics"));
 
 routes.map((route) => {
   app.get(route.path, async (req, res) => {
